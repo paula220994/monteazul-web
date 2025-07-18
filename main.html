@@ -30,7 +30,26 @@
         <h3>¡Cuida las bacterias de tu pozo séptico!</h3>
       </div>
     </div>
-    <div class="slogan-content">
+    <div class="slogan-container">
+      <div class="slogan-content">
+        <div class="icon-with-text">
+          <img
+            class="icon"
+            src="images/icons/limpieza-hogar.png"
+            alt="jellfish"
+          />
+          <h3>Limpieza Hogar</h3>
+        </div>
+        <div class="icon-with-text">
+          <img
+            class="icon"
+            src="images/icons/limpieza-hoteles.png"
+            alt="jellfish"
+          />
+          <h3>Limpieza Hoteles</h3>
+        </div>
+      </div>
+
       <h3>Por un monte cada vez más Azul</h3>
     </div>
     <div class="properties-content">
@@ -57,5 +76,69 @@
         alt="sin-petroquimicos"
       />
     </div>
+    <div class="products-container">
+      <h3>Productos</h3>
+      <div class="products-content">
+        <div class="product-card">
+          <img src="images/product.png" alt="product" />
+          <h3>
+            Proporciona una limpieza efectiva y desinfección de pisos, lozas y
+            superficies en general. Cuidando tus manos y la naturaleza, al ser
+            biodegradable y libre de colorantes.
+          </h3>
+          <h3>Presentaciones: 4 litros 20 litros</h3>
+          <div class="horizontal-options">
+            <button class="buy-product-button">Comprar</button>
+            <button class="details-product-button">Ver Ficha Técnica</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="images/product.png" alt="product" />
+          <h3>
+            Proporciona una limpieza efectiva y desinfección de pisos, lozas y
+            superficies en general. Cuidando tus manos y la naturaleza, al ser
+            biodegradable y libre de colorantes.
+          </h3>
+          <h3>Presentaciones: 4 litros 20 litros</h3>
+          <div class="horizontal-options">
+            <button class="buy-product-button">Comprar</button>
+            <button class="details-product-button">Ver Ficha Técnica</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="images/product.png" alt="product" />
+          <h3>
+            Proporciona una limpieza efectiva y desinfección de pisos, lozas y
+            superficies en general. Cuidando tus manos y la naturaleza, al ser
+            biodegradable y libre de colorantes.
+          </h3>
+          <h3>Presentaciones: 4 litros 20 litros</h3>
+          <div class="horizontal-options">
+            <button class="buy-product-button">Comprar</button>
+            <button class="details-product-button">Ver Ficha Técnica</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      document.querySelectorAll(".buy-product-button").forEach((button) => {
+        button.addEventListener("click", function () {
+          window.open(
+            "https://www.montekistan.com/jabon-cocina-multiusos-20-litros",
+            "_blank"
+          );
+        });
+      });
+
+      document.querySelectorAll(".details-product-button").forEach((button) => {
+        button.addEventListener("click", function () {
+          window.open(
+            "https://www.montekistan.com/jabon-cocina-multiusos-20-litros",
+            "_blank"
+          );
+        });
+      });
+    </script>
   </body>
 </html>
