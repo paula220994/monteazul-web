@@ -134,7 +134,7 @@
           <h3>Presentaciones: 4 litros y 20 litros</h3>
           <div class="horizontal-options">
             <button class="buy-product-button">Comprar</button>
-            <button class="details-product-button">Ver Ficha Técnica</button>
+            <button class="details-product-button-js">Ver Ficha Técnica</button>
           </div>
         </div>
       </div>
@@ -168,6 +168,15 @@
         button.addEventListener("click", function () {
           window.open(
             "https://drive.google.com/file/d/1DZfUYVlbZHQYdjd2ndCPoK2AOwDiyvY-/view?usp=drive_link",
+            "_blank"
+          );
+        });
+      });
+
+          document.querySelectorAll(".details-product-button-js").forEach((button) => {
+        button.addEventListener("click", function () {
+          window.open(
+            "https://drive.google.com/file/d/1lOeNT7avaul0i9jekroZjMGSBE5jPLG2/view?usp=drive_link",
             "_blank"
           );
         });
