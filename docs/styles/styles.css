@@ -236,19 +236,19 @@ header .blue-plant-right {
 .products-content {
   display: flex;
   flex-direction: column;
-  gap: 10rem;
+  gap: 2rem;
 }
 
 .product-card {
-  height: 600px;
-  width: 40vw;
+  height: 800px;
+  width: 80vw;
   background-color: #d9d9d9;
   border-radius: 20px;
 }
 
 .product-card img {
   margin-top: 20px;
-  width: 60%;
+  width: 80%;
   height: auto;
 }
 
