@@ -91,7 +91,7 @@ header .blue-plant-right {
 }
 
 .main-content .text-container h2 {
-  font-size: clamp(1.5rem, 2.5vw, 3rem);
+  font-size: clamp(1.2rem, 2vw, 3rem);
   font-weight: bold;
   line-height: 1.2;
   color: #000000;
