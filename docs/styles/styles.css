@@ -373,12 +373,12 @@ header .blue-plant-right {
   .products-content {
     display: grid;
     grid-template-columns: 25vw 25vw;
-    gap: 10rem;
+    gap: 5rem;
   }
 
   .product-card {
-    height: 600px;
-    width: 40vw;
+    height: 650px;
+    width: 25vw;
   }
 
   .product-card img {
