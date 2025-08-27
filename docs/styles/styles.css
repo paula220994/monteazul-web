@@ -85,9 +85,9 @@ header .blue-plant-right {
   display: flex;
   flex-direction: column;
   padding-left: 38vw;
-  padding-right: 6vw;
-  padding-top: 4.25vh;
-  gap: 0.5rem;
+  padding-right: 0vw;
+  padding-top: 3vh;
+  gap: 1rem;
 }
 
 .main-content .text-container h2 {
@@ -99,7 +99,7 @@ header .blue-plant-right {
 }
 
 .main-content .text-container h3 {
-  font-size: clamp(1rem, 1.5vw, 2rem);
+  font-size: clamp(1.2rem, 2vw, 2rem);
   font-weight: bold;
   line-height: 1.2;
   color: #000000;
