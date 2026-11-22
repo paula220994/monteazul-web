@@ -385,3 +385,10 @@ header .blue-plant-right {
     width: 200px;
   }
 }
+
+h3.texto-incluye {
+  font-size: 16px !important;
+  color: #000000 !important;
+  font-weight: normal !important;
+  line-height: 1.5 !important;
+}
